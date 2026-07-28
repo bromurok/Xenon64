@@ -25,3 +25,9 @@ Todavía falta arreglar varias cosas, como:
 - Mejoras generales de rendimiento.
 
 Este proyecto no tendrá necesariamente un desarrollo constante. De vez en cuando intentaré corregir errores, intentar mejorar el rendmiento, aunque también existe la posibilidad de que termine en el olvido por mi persona.
+
+## Problemas con Visual Studio
+
+Puede que tengan problemas con los **includes** al abrir el proyecto en Visual Studio 2010, ya que las rutas de los directorios de inclusión no están configuradas de forma global (si mal no recuerdo).
+
+Es posible que tengan que agregar manualmente los directorios necesarios en la configuración del proyecto para que Visual Studio encuentre correctamente los archivos de cabecera.
