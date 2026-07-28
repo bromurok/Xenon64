@@ -32,6 +32,10 @@ Puede que tengan problemas con los **includes** al abrir el proyecto en Visual S
 
 Es posible que tengan que agregar manualmente los directorios necesarios en la configuración del proyecto para que Visual Studio encuentre correctamente los archivos de cabecera.
 
+## Nota
+
+El emulador carga solamente un juego desde la carpeta mupen64-360, se puede activar el Gui que traía para que pueda leer todas las roms desde la carpeta! Por el momento necesitas el xex y a la par la carpeta mupen64-360, dentro de ella, solamente la rom que van a utilizar, pueden encontrar todo en la parte de xbox64 release!
+
 ## Créditos
 
 Todos los créditos al creador o creadores de Mupen360 por el trabajo original realizado.
