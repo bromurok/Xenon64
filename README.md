@@ -31,3 +31,10 @@ Este proyecto no tendrá necesariamente un desarrollo constante. De vez en cuand
 Puede que tengan problemas con los **includes** al abrir el proyecto en Visual Studio 2010, ya que las rutas de los directorios de inclusión no están configuradas de forma global (si mal no recuerdo).
 
 Es posible que tengan que agregar manualmente los directorios necesarios en la configuración del proyecto para que Visual Studio encuentre correctamente los archivos de cabecera.
+
+## License
+
+This project is licensed under the GNU General Public License v2.0.
+
+This project is based on Mupen64, which is licensed under the GNU GPL v2. 
+All original copyrights belong to their respective authors.
