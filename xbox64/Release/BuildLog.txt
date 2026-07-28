@@ -1,0 +1,99 @@
+﻿Build started 21/7/2026 22:06:22.
+     1>Project "C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\xbox64.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\xbox64.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /IC:\Users\Presley\Documents\FNAF3\xbox64 /IC:\Users\Presley\Documents\FNAF3\xbox64\source /IC:\Users\Presley\Documents\FNAF3\xbox64\source\xenon_input /IC:\Users\Presley\Documents\FNAF3\xbox64\source\xenos_audio /IC:\Users\Presley\Documents\FNAF3\xbox64\source\Rice_GX_Xenos /Zi /nologo /W0 /WX- /Ox /Os /D _XBOX /D NO_ASM /D NDEBUG /D _XBOX /D XENON /D PURE_INTERP /D _BIG_ENDIAN /D M64P_BIG_ENDIAN /GF /Gm- /EHsc /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Fo"Release\\" /Fd"Release\vc100.pdb" /TP ..\xenon\xbox360_audio.cpp /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
+         xbox360_audio.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\Release\xbox64.exe" /INCREMENTAL:NO /NOLOGO xapilib.lib d3d9.lib d3dx9.lib xgraphics.lib xboxkrnl.lib xnet.lib xaudio2.lib xact3.lib x3daudio.lib xmcore.lib vcomp.lib /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\Release\xbox64.pdb" /MAP /STACK:"262144","262144" /OPT:REF /OPT:ICF /TLBID:1 /RELEASE /IMPLIB:"C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\Release\xbox64.lib" Release\callbacks.obj
+         Release\config_core.obj
+         Release\files_xbox.obj
+         Release\stubs.obj
+         Release\GlobalVideo.obj
+         Release\main.obj
+         Release\mchk.obj
+         Release\md5.obj
+         Release\rom.obj
+         Release\savestates.obj
+         Release\util.obj
+         Release\dma.obj
+         Release\flashram.obj
+         Release\memory.obj
+         Release\n64_cic_nus_6105.obj
+         Release\pif.obj
+         Release\tlb.obj
+         Release\idct.obj
+         Release\jpeg.obj
+         Release\rsp_main.obj
+         Release\ucode1.obj
+         Release\ucode2.obj
+         Release\ucode3.obj
+         Release\ucode3mp3.obj
+         Release\plugin.obj
+         Release\bc.obj
+         Release\cop0.obj
+         Release\cop1.obj
+         Release\cop1_d.obj
+         Release\cop1_l.obj
+         Release\cop1_s.obj
+         Release\cop1_w.obj
+         Release\exception.obj
+         Release\interupt.obj
+         Release\profile.obj
+         Release\pure_interp.obj
+         Release\r4300.obj
+         Release\regimm.obj
+         Release\special.obj
+         Release\tlb_r4300.obj
+         Release\blender.obj
+         Release\Combiner.obj
+         Release\CombinerTable.obj
+         Release\Config.obj
+         Release\ConvertImage.obj
+         Release\ConvertImage16.obj
+         Release\Debugger.obj
+         Release\DecodedMux.obj
+         Release\DeviceBuilder.obj
+         Release\FrameBuffer.obj
+         Release\GeneralCombiner.obj
+         Release\GraphicsContext.obj
+         Release\math.obj
+         Release\Render.obj
+         Release\RenderBase.obj
+         Release\RenderExt.obj
+         Release\RenderTexture.obj
+         Release\RSP_Parser.obj
+         Release\RSP_S2DEX.obj
+         Release\Texture.obj
+         Release\TextureFilters.obj
+         Release\TextureFilters_2xsai.obj
+         Release\TextureFilters_hq2x.obj
+         Release\TextureFilters_hq4x.obj
+         Release\TextureManager.obj
+         Release\Video.obj
+         Release\d3d9_backend.obj
+         Release\xbox360_audio.obj
+         Release\xbox360_input.obj
+         Release\stdafx.obj /ALIGN:4096 /XEX:NO
+       ImageXex:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\imagexex.exe /out:"C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\Release\xbox64.xex" "C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\Release\xbox64.exe" 
+         Microsoft(R) Xbox 360 Image File Builder Version 2.0.21256.0
+         (c)2012 Microsoft Corporation. All rights reserved.
+         
+       PostBuildEvent:
+         copy /Y "C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\..\files\vs.xpu" "C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\Release\"
+         copy /Y "C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\..\files\ps_fb.xpu" "C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\Release\"
+         :VCEnd
+                 1 archivo(s) copiado(s).
+                 1 archivo(s) copiado(s).
+       FinalizeBuildStatus:
+         Deleting file "Release\xbox64.unsuccessfulbuild".
+         Touching "Release\xbox64.lastbuildstate".
+     1>Done Building Project "C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\xbox64.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.39

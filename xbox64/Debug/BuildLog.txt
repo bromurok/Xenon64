@@ -1,0 +1,99 @@
+﻿Build started 21/7/2026 16:49:26.
+     1>Project "C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\xbox64.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\xbox64.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /IC:\Users\Presley\Documents\FNAF3\xbox64 /IC:\Users\Presley\Documents\FNAF3\xbox64\source /IC:\Users\Presley\Documents\FNAF3\xbox64\source\xenon_input /IC:\Users\Presley\Documents\FNAF3\xbox64\source\xenos_audio /IC:\Users\Presley\Documents\FNAF3\xbox64\source\Rice_GX_Xenos /Zi /nologo /W0 /WX- /Od /D _XBOX /D NO_ASM /D _DEBUG /D _XBOX /D XENON /D PURE_INTERP /D _BIG_ENDIAN /D M64P_BIG_ENDIAN /GF- /Gm /EHsc /MTd /GS- /Gy- /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP ..\source\Rice_GX_Xenos\Video.cpp /callcap /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
+         Video.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\Debug\xbox64.exe" /INCREMENTAL /NOLOGO xapilibd.lib d3d9d.lib d3dx9d.lib xgraphicsd.lib xboxkrnl.lib xnetd.lib xaudiod2.lib xactd3.lib x3daudiod.lib xmcored.lib xbdm.lib vcompd.lib /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\Debug\xbox64.pdb" /MAP /STACK:"262144","262144" /TLBID:1 /IMPLIB:"C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\Debug\xbox64.lib" Debug\callbacks.obj
+         Debug\config_core.obj
+         Debug\files_xbox.obj
+         Debug\stubs.obj
+         Debug\GlobalVideo.obj
+         Debug\main.obj
+         Debug\mchk.obj
+         Debug\md5.obj
+         Debug\rom.obj
+         Debug\savestates.obj
+         Debug\util.obj
+         Debug\dma.obj
+         Debug\flashram.obj
+         Debug\memory.obj
+         Debug\n64_cic_nus_6105.obj
+         Debug\pif.obj
+         Debug\tlb.obj
+         Debug\idct.obj
+         Debug\jpeg.obj
+         Debug\rsp_main.obj
+         Debug\ucode1.obj
+         Debug\ucode2.obj
+         Debug\ucode3.obj
+         Debug\ucode3mp3.obj
+         Debug\plugin.obj
+         Debug\bc.obj
+         Debug\cop0.obj
+         Debug\cop1.obj
+         Debug\cop1_d.obj
+         Debug\cop1_l.obj
+         Debug\cop1_s.obj
+         Debug\cop1_w.obj
+         Debug\exception.obj
+         Debug\interupt.obj
+         Debug\profile.obj
+         Debug\pure_interp.obj
+         Debug\r4300.obj
+         Debug\regimm.obj
+         Debug\special.obj
+         Debug\tlb_r4300.obj
+         Debug\blender.obj
+         Debug\Combiner.obj
+         Debug\CombinerTable.obj
+         Debug\Config.obj
+         Debug\ConvertImage.obj
+         Debug\ConvertImage16.obj
+         Debug\Debugger.obj
+         Debug\DecodedMux.obj
+         Debug\DeviceBuilder.obj
+         Debug\FrameBuffer.obj
+         Debug\GeneralCombiner.obj
+         Debug\GraphicsContext.obj
+         Debug\math.obj
+         Debug\Render.obj
+         Debug\RenderBase.obj
+         Debug\RenderExt.obj
+         Debug\RenderTexture.obj
+         Debug\RSP_Parser.obj
+         Debug\RSP_S2DEX.obj
+         Debug\Texture.obj
+         Debug\TextureFilters.obj
+         Debug\TextureFilters_2xsai.obj
+         Debug\TextureFilters_hq2x.obj
+         Debug\TextureFilters_hq4x.obj
+         Debug\TextureManager.obj
+         Debug\Video.obj
+         Debug\d3d9_backend.obj
+         Debug\xbox360_audio.obj
+         Debug\xbox360_input.obj
+         Debug\stdafx.obj /ALIGN:4096 /XEX:NO
+       ImageXex:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\imagexex.exe /out:"C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\Debug\xbox64.xex" "C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\Debug\xbox64.exe" 
+         Microsoft(R) Xbox 360 Image File Builder Version 2.0.21256.0
+         (c)2012 Microsoft Corporation. All rights reserved.
+         
+       PostBuildEvent:
+         copy /Y "C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\..\files\vs.xpu" "C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\Debug\"
+         copy /Y "C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\..\files\ps_fb.xpu" "C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\Debug\"
+         :VCEnd
+                 1 archivo(s) copiado(s).
+                 1 archivo(s) copiado(s).
+       FinalizeBuildStatus:
+         Deleting file "Debug\xbox64.unsuccessfulbuild".
+         Touching "Debug\xbox64.lastbuildstate".
+     1>Done Building Project "C:\Users\Presley\Documents\FNAF3\xbox64\xbox64\xbox64.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.88

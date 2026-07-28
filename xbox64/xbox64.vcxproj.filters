@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{071a1f8d-8624-4ac4-962b-47966751750b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\memory">
+      <UniqueIdentifier>{03c1434d-d42a-4867-acf5-c041c80e2592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\r4300">
+      <UniqueIdentifier>{ced76ec3-d084-486d-a91f-b3d9cf98e1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\r4300\ppc">
+      <UniqueIdentifier>{d80169c6-9605-4dd3-b8d5-da56142d8080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\r4300\ppc\disasm">
+      <UniqueIdentifier>{bf810536-dac3-4bb2-b79e-03ab4f83f823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\api">
+      <UniqueIdentifier>{14efba83-b45d-469f-ab88-4d36cba9f324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\osal">
+      <UniqueIdentifier>{a031e211-42ec-4a65-acad-240eaf66d141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\plugin">
+      <UniqueIdentifier>{64732001-fcfe-4a46-8ed9-deb4b0db81ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\mupen64plus-rsp-hle">
+      <UniqueIdentifier>{83fcbec7-e3b6-4f23-8056-c40206c7f3fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Rice_GX_Xenos">
+      <UniqueIdentifier>{790953fa-7422-4d90-9ca4-3237a5c7e400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\main">
+      <UniqueIdentifier>{d5e7d2f1-9bd3-4dd8-bb96-6c8e9f1983fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\main\zip">
+      <UniqueIdentifier>{0ee81165-6bed-417c-942e-9151efcea5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xenon">
+      <UniqueIdentifier>{5d9fa950-1976-4768-8ced-0d34f0c8e61d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{27a07ded-674e-41db-ad8f-a6551d4824ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="..\source\main\bininc.S">
+      <Filter>source\main</Filter>
+    </None>
+    <None Include="..\files\ps_fb.xpu">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\files\vs.xpu">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\memory\dma.h">
+      <Filter>source\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\memory\flashram.h">
+      <Filter>source\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\memory\memory.h">
+      <Filter>source\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\memory\n64_cic_nus_6105.h">
+      <Filter>source\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\memory\pif.h">
+      <Filter>source\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\memory\tlb.h">
+      <Filter>source\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\r4300\ARAM-blocks.h">
+      <Filter>source\r4300</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\r4300\exception.h">
+      <Filter>source\r4300</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\r4300\fpu.h">
+      <Filter>source\r4300</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\r4300\interupt.h">
+      <Filter>source\r4300</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\r4300\macros.h">
+      <Filter>source\r4300</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\r4300\ops.h">
+      <Filter>source\r4300</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\r4300\r4300.h">
+      <Filter>source\r4300</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\r4300\recomp.h">
+      <Filter>source\r4300</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\r4300\Recomp-Cache.h">
+      <Filter>source\r4300</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\r4300\recomph.h">
+      <Filter>source\r4300</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\api\callbacks.h">
+      <Filter>source\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\api\config_core.h">
+      <Filter>source\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\api\m64p_config.h">
+      <Filter>source\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\api\m64p_plugin.h">
+      <Filter>source\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\api\m64p_types.h">
+      <Filter>source\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\osal\files.h">
+      <Filter>source\osal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\osal\preproc.h">
+      <Filter>source\osal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\plugin\plugin.h">
+      <Filter>source\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\mupen64plus-rsp-hle\hle.h">
+      <Filter>source\mupen64plus-rsp-hle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\blender.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\COLOR.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\Combiner.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\CombinerDefs.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\Config.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\ConvertImage.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\CritSect.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\CSortedList.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\Debugger.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\DecodedMux.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\DeviceBuilder.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\ExtendedRender.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\FrameBuffer.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\GeneralCombiner.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\GFXPlugin.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\gl.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\glATI.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\glext.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\Graphics_1.3.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\GraphicsContext.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\IColor.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\math.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\messagebox.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\RDP_Texture.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\Render.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\RenderBase.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\RenderTexture.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\RSP_GBI_Others.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\RSP_GBI_Sprite2D.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\RSP_GBI0.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\RSP_GBI1.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\RSP_GBI2.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\RSP_GBI2_ext.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\RSP_Parser.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\RSP_S2DEX.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\stdafx.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\Texture.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\TextureFilters.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\TextureFilters_hq2x.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\TextureFilters_hq4x.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\TextureFilters_lq2x.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\TextureManager.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\Timing.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\typedefs.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\ucode.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\UcodeDefs.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\version.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\VertexShaderConstantDef.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\Rice_GX_Xenos\Video.h">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\main\guifuncs.h">
+      <Filter>source\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\main\main.h">
+      <Filter>source\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\main\md5.h">
+      <Filter>source\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\main\rom.h">
+      <Filter>source\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\main\savestates.h">
+      <Filter>source\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\main\util.h">
+      <Filter>source\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\main\version.h">
+      <Filter>source\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\main\zip\crypt.h">
+      <Filter>source\main\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\main\zip\ioapi.h">
+      <Filter>source\main\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\main\zip\unzip.h">
+      <Filter>source\main\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\main\zip\zip.h">
+      <Filter>source\main\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\xenon\d3d9_backend.h">
+      <Filter>xenon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xbox64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\memory\dma.c">
+      <Filter>source\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\memory\flashram.c">
+      <Filter>source\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\memory\memory.c">
+      <Filter>source\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\memory\n64_cic_nus_6105.c">
+      <Filter>source\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\memory\pif.c">
+      <Filter>source\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\memory\tlb.c">
+      <Filter>source\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\r4300\bc.c">
+      <Filter>source\r4300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\r4300\cop0.c">
+      <Filter>source\r4300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\r4300\cop1.c">
+      <Filter>source\r4300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\r4300\cop1_d.c">
+      <Filter>source\r4300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\r4300\cop1_l.c">
+      <Filter>source\r4300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\r4300\cop1_s.c">
+      <Filter>source\r4300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\r4300\cop1_w.c">
+      <Filter>source\r4300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\r4300\exception.c">
+      <Filter>source\r4300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\r4300\interupt.c">
+      <Filter>source\r4300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\r4300\profile.c">
+      <Filter>source\r4300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\r4300\pure_interp.c">
+      <Filter>source\r4300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\r4300\r4300.c">
+      <Filter>source\r4300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\r4300\regimm.c">
+      <Filter>source\r4300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\r4300\special.c">
+      <Filter>source\r4300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\r4300\tlb_r4300.c">
+      <Filter>source\r4300</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\api\callbacks.c">
+      <Filter>source\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\api\config_core.c">
+      <Filter>source\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\plugin\plugin.c">
+      <Filter>source\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\mupen64plus-rsp-hle\idct.c">
+      <Filter>source\mupen64plus-rsp-hle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\mupen64plus-rsp-hle\jpeg.c">
+      <Filter>source\mupen64plus-rsp-hle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\mupen64plus-rsp-hle\rsp_main.c">
+      <Filter>source\mupen64plus-rsp-hle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\mupen64plus-rsp-hle\ucode1.cpp">
+      <Filter>source\mupen64plus-rsp-hle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\mupen64plus-rsp-hle\ucode2.cpp">
+      <Filter>source\mupen64plus-rsp-hle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\mupen64plus-rsp-hle\ucode3.cpp">
+      <Filter>source\mupen64plus-rsp-hle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\mupen64plus-rsp-hle\ucode3mp3.cpp">
+      <Filter>source\mupen64plus-rsp-hle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\blender.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\Combiner.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\CombinerTable.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\Config.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\ConvertImage.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\ConvertImage16.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\Debugger.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\DecodedMux.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\DeviceBuilder.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\FrameBuffer.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\GeneralCombiner.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\GraphicsContext.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\math.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\Render.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\RenderBase.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\RenderExt.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\RenderTexture.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\RSP_Parser.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\RSP_S2DEX.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\Texture.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\TextureFilters.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\TextureFilters_2xsai.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\TextureFilters_hq2x.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\TextureFilters_hq4x.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\TextureManager.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\Rice_GX_Xenos\Video.cpp">
+      <Filter>source\Rice_GX_Xenos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\main\main.cpp">
+      <Filter>source\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\main\mchk.c">
+      <Filter>source\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\main\md5.c">
+      <Filter>source\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\main\rom.c">
+      <Filter>source\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\main\savestates.c">
+      <Filter>source\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\main\util.c">
+      <Filter>source\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xenon\xbox360_audio.cpp">
+      <Filter>xenon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xenon\xbox360_input.cpp">
+      <Filter>xenon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\xenon\d3d9_backend.cpp">
+      <Filter>xenon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\osal\files_xbox.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\zlx\GlobalVideo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\stubs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
