@@ -34,7 +34,7 @@ Es posible que tengan que agregar manualmente los directorios necesarios en la c
 
 ## Nota
 
-El emulador carga solamente un juego desde la carpeta mupen64-360, se puede activar el Gui que traía para que pueda leer todas las roms desde la carpeta! Por el momento necesitas el xex y a la par la carpeta mupen64-360, dentro de ella, solamente la rom que van a utilizar, pueden encontrar todo en la parte de xbox64 release!
+El emulador carga solamente un juego desde la carpeta mupen64-360, se puede activar el Gui que traía para que pueda leer todas las roms desde la carpeta! Por el momento necesitas el xex y a la par la carpeta mupen64-360, dentro de ella, solamente la rom que van a utilizar, pueden encontrar todo en la parte de xbox64 release! Las roms deben estar en formato .z64 
 
 ## Créditos
 
