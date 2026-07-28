@@ -32,9 +32,8 @@ Puede que tengan problemas con los **includes** al abrir el proyecto en Visual S
 
 Es posible que tengan que agregar manualmente los directorios necesarios en la configuración del proyecto para que Visual Studio encuentre correctamente los archivos de cabecera.
 
-## License
+## Créditos
 
-This project is licensed under the GNU General Public License v2.0.
+Todos los créditos al creador o creadores de Mupen360 por el trabajo original realizado.
 
-This project is based on Mupen64, which is licensed under the GNU GPL v2. 
-All original copyrights belong to their respective authors.
+Este proyecto utiliza como base ese trabajo y busca continuar experimentando con el emulador en Xbox 360.
